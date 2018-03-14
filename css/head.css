@@ -1,29 +1,105 @@
-body, div, label, dl, dt, dd, ul, ol, li, form, p, th, td, img, a {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font: 12px/200% 'microsoft yahei';
-  color: #000; }
-
-a {
-  text-decoration: none; }
-
-img {
-  border: 0;
-  display: block; }
-
+@import url(common.css);
 .headAd {
   background: #4a0001;
-  text-align: center;
   height: 80px; }
 
 .v30_head {
   height: 30px;
   background: #f2f2f2; }
+  .v30_head dl {
+    display: inline-block;
+    color: #666; }
+    .v30_head dl dt, .v30_head dl dd {
+      display: inline-block;
+      float: left; }
+    .v30_head dl dt {
+      line-height: 30px;
+      height: 30px;
+      width: 100%;
+      position: relative; }
+      .v30_head dl dt i {
+        position: absolute;
+        height: 12px;
+        right: 0;
+        top: 9px;
+        border-left: 1px solid #dfdfdf; }
   .v30_head .v30_1210 {
     position: relative;
     width: 1210px;
     margin: 0 auto; }
+    .v30_head .v30_1210 dl {
+      color: #666; }
+    .v30_head .v30_1210 .v30_gohome_dl {
+      width: 110px; }
+      .v30_head .v30_1210 .v30_gohome_dl dt b {
+        background: url(../img/v30/home.png) no-repeat center;
+        display: inline-block;
+        width: 16px;
+        height: 14px; }
+      .v30_head .v30_1210 .v30_gohome_dl a {
+        display: inline-block; }
+    .v30_head .v30_1210 .v30h_phone {
+      width: 200px;
+      padding-left: 6px; }
+      .v30_head .v30_1210 .v30h_phone b {
+        width: 25px;
+        height: 30px;
+        display: inline-block;
+        float: left;
+        background: url(../img/v30/brandstore_share.png) no-repeat -348px -338px; }
+    .v30_head .v30_1210 .header_info_right {
+      width: 604px;
+      float: right;
+      line-height: 30px;
+      position: relative;
+      vertical-align: middle; }
+      .v30_head .v30_1210 .header_info_right dl {
+        float: right; }
+      .v30_head .v30_1210 .header_info_right .v30h_mobile {
+        cursor: pointer; }
+        .v30_head .v30_1210 .header_info_right .v30h_mobile dt {
+          width: 110px;
+          float: left;
+          padding-left: 5px;
+          background: url(../img/v30/brandstore_share.png) no-repeat -218px -369px; }
+          .v30_head .v30_1210 .header_info_right .v30h_mobile dt span {
+            float: left; }
+      .v30_head .v30_1210 .header_info_right .v30h_help {
+        position: absolute;
+        width: 85px;
+        right: 130px;
+        top: 0; }
+        .v30_head .v30_1210 .header_info_right .v30h_help dt {
+          text-align: center; }
+      .v30_head .v30_1210 .header_info_right .v30h_my5lux {
+        width: 130px;
+        position: absolute;
+        right: 215px;
+        top: 0;
+        z-index: 150; }
+        .v30_head .v30_1210 .header_info_right .v30h_my5lux dt {
+          text-align: center;
+          float: left;
+          background: url(../img/v30/brandstore_share.png) no-repeat -253px -436px; }
+          .v30_head .v30_1210 .header_info_right .v30h_my5lux dt span {
+            float: left;
+            padding-left: 15px; }
+      .v30_head .v30_1210 .header_info_right .v30h_logbox {
+        position: absolute;
+        right: 350px;
+        top: 0; }
+        .v30_head .v30_1210 .header_info_right .v30h_logbox ._nandlog {
+          width: 100px;
+          float: left; }
+          .v30_head .v30_1210 .header_info_right .v30h_logbox ._nandlog dt span {
+            padding-right: 20px; }
+        .v30_head .v30_1210 .header_info_right .v30h_logbox ._randout {
+          width: 88px; }
+          .v30_head .v30_1210 .header_info_right .v30h_logbox ._randout ._randout_s {
+            width: 22px;
+            height: 24px;
+            float: left;
+            background: url(../img/v30/youli.gif) no-repeat;
+            margin: 0 5px 0 17px; }
 
 /*# sourceMappingURL=head.css.map */
