@@ -1,0 +1,29 @@
+body, div, label, dl, dt, dd, ul, ol, li, form, p, th, td, img,a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font:12px/200% 'microsoft yahei';
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+    display: block;
+}
+.headAd{
+    background:#4a0001;
+    text-align:center;
+    height: 80px;
+}
+.v30_head{
+    height: 30px;
+    background: #f2f2f2;
+    .v30_1210{
+        position: relative;
+        width: 1210px;
+        margin: 0 auto;
+    }
+}
