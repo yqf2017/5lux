@@ -1,0 +1,141 @@
+.ft-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.ft-carousel .carousel-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%; }
+
+.ft-carousel .carousel-inner .carousel-item {
+  float: left;
+  height: 100%; }
+
+.ft-carousel .carousel-item img {
+  width: 100%; }
+
+.ft-carousel .carousel-indicators {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 0; }
+
+.ft-carousel .carousel-indicators span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  margin: 0 4px;
+  border-radius: 50%;
+  cursor: pointer; }
+
+.ft-carousel .carousel-indicators span.active {
+  background-color: #de3a3a; }
+
+.ft-carousel .carousel-btn {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 45px;
+  margin-top: -25px;
+  cursor: pointer; }
+
+.ft-carousel .carousel-prev-btn {
+  left: 0;
+  background: url(../../img/v30/prev.png) no-repeat; }
+
+.ft-carousel .carousel-next-btn {
+  right: 0;
+  background: url(../../img/v30/next.png) no-repeat; }
+
+.example {
+  width: 1440px;
+  height: 520px; }
+
+.main {
+  overflow: hidden;
+  width: 1210px;
+  margin: 0 auto; }
+  .main .brandship_title {
+    margin-top: 40px;
+    margin-bottom: 28px; }
+  .main .brandship_list {
+    overflow: hidden; }
+    .main .brandship_list li {
+      float: left;
+      position: relative;
+      margin-right: 10px; }
+      .main .brandship_list li a img {
+        width: 234px;
+        outline: 0; }
+  .main .brandship_tbox {
+    width: 106px;
+    height: 154px;
+    position: absolute;
+    bottom: 1px;
+    z-index: 1;
+    background: white;
+    text-align: center;
+    padding: 0 34px 0 34px;
+    left: 30px;
+    bottom: -100px;
+    cursor: pointer; }
+    .main .brandship_tbox span {
+      width: 20px;
+      height: 2px;
+      background: #000;
+      display: inline-block;
+      margin-bottom: 14px; }
+    .main .brandship_tbox img {
+      width: 60px;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-bottom: 3px; }
+  .main .hotstore_title img {
+    float: left; }
+  .main .hotstore_title .hotarrowbtn {
+    float: right;
+    padding-top: 23px;
+    padding-right: 15px; }
+    .main .hotstore_title .hotarrowbtn span {
+      cursor: pointer;
+      display: inline-block;
+      width: 8px;
+      height: 15px; }
+    .main .hotstore_title .hotarrowbtn .hot_pre {
+      background: url(../../img/v30/share02.png) no-repeat -160px -384px; }
+    .main .hotstore_title .hotarrowbtn .hot_next {
+      background: url(../../img/v30/share02.png) no-repeat -180px -384px;
+      margin-left: 20px; }
+  .main .hotflag {
+    height: 180px;
+    width: 100%;
+    position: relative;
+    overflow: hidden; }
+    .main .hotflag .hotflagbox {
+      position: absolute;
+      overflow: hidden;
+      left: 0;
+      top: 0;
+      width: 3630px;
+      left: 0px; }
+      .main .hotflag .hotflagbox li {
+        float: left;
+        width: 1210px; }
+        .main .hotflag .hotflagbox li div {
+          position: relative;
+          float: left;
+          width: 107px;
+          height: 55px;
+          padding: 14px 29px;
+          border: 1px solid #dfdfdf;
+          margin-right: 6px;
+          margin-bottom: 7px; }
+          .main .hotflag .hotflagbox li div img {
+            width: 107px;
+            height: 54px; }
