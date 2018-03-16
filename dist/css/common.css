@@ -1,0 +1,20 @@
+body, div, label, dl, dt, dd, ul, ol, li, form, p, th, td, img, a {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  font-family: microsoft yahei, Helvetica, Arial, Tahoma, sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 24px; }
+
+a {
+  text-decoration: none; }
+  a:link, a:visited, a:active {
+    color: #666; }
+  a:hover {
+    color: #b28247; }
+
+img {
+  border: 0;
+  display: block; }

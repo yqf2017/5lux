@@ -1,4 +1,7 @@
 @import url(common.css);
+body {
+  height: 2000px; }
+
 .headAd {
   background: #4a0001;
   height: 80px; }
@@ -58,7 +61,7 @@
       .v30_head .v30_1210 .header_info_right .v30h_mobile {
         cursor: pointer; }
         .v30_head .v30_1210 .header_info_right .v30h_mobile dt {
-          width: 110px;
+          width: 112px;
           float: left;
           padding-left: 5px;
           background: url(../img/v30/brandstore_share.png) no-repeat -218px -369px; }
@@ -101,5 +104,138 @@
             float: left;
             background: url(../img/v30/youli.gif) no-repeat;
             margin: 0 5px 0 17px; }
+
+.v30h_mid {
+  background: #fff; }
+  .v30h_mid .v30_1210 {
+    width: 1210px;
+    margin: 0 auto; }
+    .v30h_mid .v30_1210 .v30hm_logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 244px;
+      height: 110px; }
+    .v30h_mid .v30_1210 .v30hm_ad {
+      position: absolute;
+      top: 14px;
+      left: 290px;
+      width: 142px;
+      height: 80px;
+      overflow: hidden; }
+    .v30h_mid .v30_1210 .v30hm_search {
+      overflow: hidden;
+      position: absolute;
+      left: 485px;
+      top: 36px; }
+      .v30h_mid .v30_1210 .v30hm_search .in_con {
+        width: 343px;
+        padding: 2px 2px;
+        background: #c69c6d;
+        height: 34px; }
+        .v30h_mid .v30_1210 .v30hm_search .in_con .search_input {
+          outline: none;
+          width: 260px;
+          height: 32px;
+          line-height: 34px;
+          vertical-align: middle;
+          border: none;
+          background: #fff;
+          padding-left: 3px;
+          float: left; }
+        .v30h_mid .v30_1210 .v30hm_search .in_con .search_b {
+          width: 80px;
+          height: 34px;
+          border: none;
+          float: left;
+          color: #fff;
+          font-size: 15px;
+          background: none; }
+        .v30h_mid .v30_1210 .v30hm_search .in_con .inc_adlist {
+          clear: both; }
+          .v30h_mid .v30_1210 .v30hm_search .in_con .inc_adlist li {
+            display: inline-block;
+            float: left;
+            color: #999;
+            font-size: 11px;
+            padding-right: 25px;
+            line-height: 32px; }
+            .v30h_mid .v30_1210 .v30hm_search .in_con .inc_adlist li a:hover {
+              color: #d00000; }
+    .v30h_mid .v30_1210 .v30hm_cart {
+      position: absolute;
+      right: 10px;
+      top: 35px;
+      z-index: 30; }
+      .v30h_mid .v30_1210 .v30hm_cart dl {
+        width: 290px;
+        background: #fff;
+        position: relative; }
+        .v30h_mid .v30_1210 .v30hm_cart dl dt {
+          display: inline-block;
+          width: 94px;
+          height: 32px;
+          line-height: 32px;
+          text-indent: 45px;
+          border: 1px solid #ccc;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          position: relative;
+          float: right;
+          color: #666;
+          background: url(../img/v30/brandstore_share.png) no-repeat -376px -405px; }
+          .v30h_mid .v30_1210 .v30hm_cart dl dt img {
+            position: absolute;
+            left: 10px;
+            top: 2px; }
+          .v30h_mid .v30_1210 .v30hm_cart dl dt span {
+            color: #d00000; }
+        .v30h_mid .v30_1210 .v30hm_cart dl dd {
+          clear: both;
+          width: 268px;
+          padding: 10px 10px 20px 10px;
+          border: 1px solid #ccc;
+          text-align: center;
+          box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+          background-color: #fff; }
+          .v30h_mid .v30_1210 .v30hm_cart dl dd ul {
+            max-height: 335px;
+            overflow-y: auto;
+            overflow-x: hidden; }
+        .v30h_mid .v30_1210 .v30hm_cart dl b {
+          width: 94px;
+          height: 3px;
+          display: block;
+          position: absolute;
+          background: #fff;
+          right: 1px;
+          top: 32px;
+          z-index: 1; }
+    .v30h_mid .v30_1210 a .overseaenter {
+      position: absolute;
+      top: 35px;
+      z-index: 30;
+      right: 123px;
+      width: 200px;
+      height: 30px;
+      background: url(../img/v30/overseadef.jpg) no-repeat;
+      background-size: 100% 100%;
+      transition: 1.5s; }
+      .v30h_mid .v30_1210 a .overseaenter:hover {
+        background: url(../img/v30/overseahov.jpg) no-repeat; }
+
+.ui-autocomplete {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: default;
+  z-index: 1000;
+  background: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding-bottom: 5px; }
 
 /*# sourceMappingURL=head.css.map */
