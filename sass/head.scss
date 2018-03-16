@@ -1,0 +1,416 @@
+@import "common";
+.headAd{
+    background:#4a0001;
+    height: 80px;
+}
+.v30_head{
+    height: 30px;
+    background: #f2f2f2;
+    dl{
+        display: inline-block;
+        color: #666;
+        dt,dd{
+            display: inline-block;
+            float: left;
+        }
+        dt{
+            line-height: 30px;
+            height: 30px;
+            width: 100%;
+            position: relative;
+            i{
+                position: absolute;
+                height: 12px;
+                right: 0;
+                top: 9px;
+                border-left: 1px solid #dfdfdf;
+            }
+        }
+    }
+    .v30_1210{
+        position: relative;
+        width: 1210px;
+        margin: 0 auto;
+        dl{
+            color: #666;
+        }
+        .v30_gohome_dl {
+            width: 110px;
+            dt b{
+                background: url(../../img/v30/home.png) no-repeat center;
+                display: inline-block;
+                width: 16px;
+                height: 14px;
+            }
+            a{
+                display: inline-block;
+            }
+        }
+        .v30h_phone {
+            width: 200px;
+            padding-left: 6px;
+            b{
+                width: 25px;
+                height: 30px;
+                display: inline-block;
+                float: left;
+                background: url(../../img/v30/brandstore_share.png) no-repeat -348px -338px;
+            }
+        }
+        .header_info_right {
+            width: 604px;
+            float: right;
+            line-height: 30px;
+            position: relative;
+            vertical-align: middle;
+            dl{
+                float: right;
+            }
+            .v30h_mobile {
+                cursor: pointer;
+                dt {
+                width: 112px;
+                float: left;
+                padding-left: 5px;
+                background: url(../../img/v30/brandstore_share.png) no-repeat -218px -369px;
+                    span{
+                        float: left;
+                        &:hover{
+                            color: #d00000;
+                        }
+                        &:hover .v30hm_qr{
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .v30h_help {
+                position: absolute;
+                width: 85px;
+                right: 130px;
+                top: 0;
+                dt{
+                    text-align: center;
+                }
+            }
+            .v30h_my5lux {
+                width: 130px;
+                position: absolute;
+                right: 215px;
+                top: 0;
+                z-index: 150;
+                dt{
+                    text-align: center;
+                    float: left;
+                    background: url(../../img/v30/brandstore_share.png) no-repeat -253px -436px;
+                    span{
+                        float: left;
+                        padding-left: 15px;
+                    }
+                    }
+            }
+            .v30h_logbox {
+                position: absolute;
+                right: 350px;
+                top: 0;
+                ._nandlog {
+                    width: 100px;
+                    float: left;
+                    a:hover{
+                        color: #d00000;
+                    }
+                    dt span {
+                        padding-right: 20px;
+                    }
+                }
+                ._randout {
+                    width: 88px;
+                     ._randout_s {
+                        width: 22px;
+                        height: 24px;
+                        float: left;
+                        background: url(../../img/v30/youli.gif) no-repeat;
+                        margin: 0 5px 0 17px;
+                    }
+                }
+            }
+        }
+    }
+}
+.v30h_mid {
+    background: #fff;
+    .v30_1210 {
+        width: 1210px;
+        margin: 0 auto;
+        .v30hm_logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 244px;
+            height: 110px;
+        }
+        .v30hm_ad {
+            position: absolute;
+            top: 14px;
+            left: 290px;
+            width: 142px;
+            height: 80px;
+            overflow: hidden;
+        }
+        .v30hm_search {
+            overflow: hidden;
+            position: absolute;
+            left: 485px;
+            top: 36px;
+            .in_con {
+                width: 343px;
+                padding: 2px 2px;
+                background: #c69c6d;
+                height: 34px;
+                .search_input {
+                    outline: none;
+                    width: 260px;
+                    height: 32px;
+                    line-height: 34px;
+                    vertical-align: middle;
+                    border: none;
+                    background: #fff;
+                    padding-left: 3px;
+                    float: left;
+                }
+                .search_b {
+                    width: 80px;
+                    height: 34px;
+                    border: none;
+                    float: left;
+                    color: #fff;
+                    font-size: 15px;
+                    background: none;
+                }
+                .inc_adlist {
+                    clear: both;
+                    li {
+                        display: inline-block;
+                        float: left;
+                        color: #999;
+                        font-size: 11px;
+                        padding-right: 25px;
+                        line-height: 32px;
+                        a:hover {
+                            color: #d00000;
+                        }
+                    }
+                }
+            }
+        }
+        .v30hm_cart {
+            position: absolute;
+            right: 10px;
+            top: 35px;
+            z-index: 30;
+            dl {
+                width: 290px;
+                background: #fff;
+                position: relative;
+                dt {
+                    display: inline-block;
+                    width: 94px;
+                    height: 32px;
+                    line-height: 32px;
+                    text-indent: 45px;
+                    border: 1px solid #ccc;
+                    box-shadow: 0 0 2px rgba(0,0,0,.2);
+                    -moz-box-shadow: 0 0 2px rgba(0,0,0,.2);
+                    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.2);
+                    position: relative;
+                    float: right;
+                    color: #666;
+                    background: url(../../img/v30/brandstore_share.png) no-repeat -376px -405px;
+                    img {
+                        position: absolute;
+                        left: 10px;
+                        top: 2px;
+                    }
+                     span {
+                        color: #d00000;
+                    }
+                }
+                dd {
+                    clear: both;
+                    width: 268px;
+                    padding: 10px 10px 20px 10px;
+                    border: 1px solid #ccc;
+                    text-align: center;
+                    box-shadow: 0 0 2px rgba(0,0,0,.2);
+                    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.2);
+                    -moz-box-shadow: 0 0 2px rgba(0,0,0,.2);
+                    background-color: #fff;
+                     ul {
+                        max-height: 335px;
+                        overflow-y: auto;
+                        overflow-x: hidden;
+                    }
+                }
+                b {
+                    width: 94px;
+                    height: 3px;
+                    display: block;
+                    position: absolute;
+                    background: #fff;
+                    right: 1px;
+                    top: 32px;
+                    z-index: 1;
+                }
+            }
+        }
+        a{
+          .overseaenter {
+                position: absolute;
+                top: 35px;
+                z-index: 30;
+                right: 123px;
+                width: 200px;
+                height: 30px;
+                background: url(../../img/v30/overseadef.jpg) no-repeat;
+                background-size: 100% 100%;
+                transition: 1.5s;
+                &:hover{
+                   background: url(../../img/v30/overseahov.jpg) no-repeat;                    
+                }
+            }
+        }
+    }
+}
+.ui-autocomplete {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: default;
+    z-index: 1000;
+    background: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.nav {
+    width: 100%;
+    height: 38px;
+    background: url(../../img/v30/navi_1pxbg.png) repeat-x;
+    vertical-align: middle;
+    box-shadow: 0 4px 4px #c7c6c6;
+    -o-box-shadow: 0 4px 4px #c7c6c6;
+    -moz-box-shadow: 0 4px 4px #c7c6c6;
+    -webkit-box-shadow: 0 4px 4px #c7c6c6;
+    .navbox{
+        width: 1210px;
+        margin: 0 auto;
+        .menu {
+            cursor: pointer;            
+            clear: both;
+            height: 40px;
+            width: 1210px;
+            margin: 0 auto;
+            position: relative;
+             li {
+                display: inline-block;
+                float: left;
+                z-index: 20;
+                font-size: 14px;
+                text-align: center;
+                height: 40px;
+                line-height: 40px;
+                .type_5lux{
+                    width: 130px;
+                    background: url(../../img/v30/lux_index.png) -8px -215px no-repeat;
+                    font-size: 14px;
+                    font-weight: bold;
+                    height: 38px;
+                    color: #fff;
+                    display: inline-block;
+                    z-index: 999;
+                }
+                .menu_a {
+                    display: block;
+                    /* padding: 0px 40px; */
+                    width: 82px;
+                    height: 38px;
+                    &:hover i{
+                        background-position: -366px -252px!important;
+                    }
+                    i {
+                        display: inline-block;
+                        float: left;
+                        width: 19px;
+                        height: 40px;
+                        line-height: 40px;
+                        background: url(../../img/v30/share02.png) no-repeat -58px -169px;
+                        margin-left: 23px;
+                    }
+                    &:link,&:visited {
+                        color: #c8a985;
+                    }
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .overseaslogo {
+            position: absolute;
+            top: 0;
+            line-height: 38px;
+            overflow: hidden;
+            z-index: 10;
+            right: 144px;
+            width: 100px;
+            height: 38px;
+            background: url(../../img/v30/overseaslogo.gif) no-repeat;
+            background-size: 100% 100%;
+        }
+        .icon_Wrap {
+            position: absolute;
+            right: 15px;
+            top: 0;
+            height: 40px;
+            line-height: 40px;
+            overflow: hidden;
+            z-index: 10;
+             b {
+                font-weight: 400;
+                float: left;
+                color: #fff;
+            }
+            li {
+                float: left;
+                margin-right: 12px;
+                width: 30px;
+                overflow: hidden;
+                .divlist {
+                    width: 200px;
+                    overflow: hidden;
+                     a {
+                        height: 40px;
+                        display: inline-block;
+                        span {
+                            display: inline-block;
+                            width: 30px;
+                            height: 40px;
+                            line-height: 40px;
+                            float: left;
+                            margin-right: 3px;
+                        }
+                    }
+                }
+                .divlist01 span {
+                    background: url(../../img/v30/share02.png) no-repeat -237px -66px;
+                }
+                .divlist02 span {
+                    background: url(../../img/v30/share02.png) no-repeat -296px -66px;
+                }
+                .divlist03 span {
+                    background: url(../../img/v30/share02.png) no-repeat -354px -66px;
+                }
+            }
+        }
+    }
+}
